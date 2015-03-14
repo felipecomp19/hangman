@@ -1,0 +1,11 @@
+Clássico jogo da Forca para você se divertir sozinho ou com seus amigos. Jogando sozinho é só selecionar uma das categorias existentes e tentar adivinhar a palavra (cuidado para não enforcar o homem palito!). Já com seus amigos digite a palavra e torça para ele não adivinhar.
+
+Categorias presentes:
+Países
+Cidades
+Filmes
+Carros
+Frutas
+Famosos
+Mares
+Animais

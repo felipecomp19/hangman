@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.texti.hangman.GameActivity" >
+
+    <include
+        android:id="@+id/lay_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/keyboard" />
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/word"
+        android:textColor="#333333"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lay_keyboard"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/status"
+        android:textColor="#333333"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/tv_status"
+        android:layout_below="@+id/tv_word"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/human_7" />
+    
+    <Button
+        android:id="@+id/b_new"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#4C64A2"
+        android:text="@string/new_game"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

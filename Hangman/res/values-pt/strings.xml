@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Forca</string>
+    <string name="drawer_open">Abrir menu</string>
+    <string name="drawer_close">Fechar menu</string>
+
+    <!-- activity_menu.xml -->
+    <string name="opt_movies">Filmes</string>
+    <string name="opt_countries">Paises</string>
+    <string name="opt_capitals">Cidades</string>
+    <string name="opt_cars">Carros</string>
+    <string name="opt_fruits">Frutas</string>
+    <string name="opt_celebs">Famosos</string>
+    <string name="opt_seas">Mares</string>
+    <string name="opt_animals">Animais</string>
+
+    <!-- activity_more.xml -->
+    <string name="games_won">Vitorias: </string>
+    <string name="games_lost">Derrotas: </string>
+    <string name="more_games">Mais jogos</string>
+    <string name="clear_data">Limpar placar</string>
+    <string name="hide_letter">Esconder primeira e ultima letra</string>
+    <string name="easy">Facil</string>
+    <string name="classic_keyboard">Teclado classico</string>
+
+    <!-- activity_multi.xml -->
+    <string name="write_word">Escreva uma palavra para adivinhar!</string>
+    <string name="longer_word">Escreva uma palavra maior!</string>
+    <string name="start">Jogar</string>
+    <string name="delete">Apagar</string>
+
+    <!-- activity_game.xml -->
+    <string name="word">PALAVRA</string>
+    <string name="status">STATUS</string>
+    <string name="new_game">Novo Jogo</string>
+    <string name="logo">Logo</string>
+    <string name="won">VENCEU</string>
+    <string name="lose">PERDEU</string>
+    <string name="exit">Sair?</string>
+    <string name="exit_msg">Será considerado uma derrota!</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string-array name="activity_array">
+        <item>Jogar sozinho</item>
+        <item>Jogar com um amigo</item>
+    </string-array>
+    <string-array name="movies">
+        <item>o poderoso chefao</item>
+        <item>o magico de oz</item>
+        <item>cidadao kane</item>
+        <item>um sonho de liberdade</item>
+        <item>pulp fiction</item>
+        <item>casablanca</item>
+        <item>o poderoso chefao 2</item>
+        <item>et</item>
+        <item>2001 uma odisseia no espaco</item>
+        <item>a lista de schindler</item>
+        <item>guerra nas estrelas</item>
+        <item>de volta para o futuro</item>
+        <item>os cacadores da arca perdida</item>
+        <item>forrest gump</item>
+        <item>e o vento levou</item>
+        <item>o sol e para todos</item>
+        <item>apocalypse now</item>
+        <item>o silencio dos inocentes</item>
+        <item>tubarao</item>
+        <item>a novica rebelde</item>
+        <item>cantando na chuva</item>
+        <item>clube dos cinco</item>
+        <item>blade runner</item>
+        <item>um estranho no ninho</item>
+        <item>a princesa prometida</item>
+        <item>star wars</item>
+        <item>fargo</item>
+        <item>beleza americana</item>
+        <item>laranja mecanica</item>
+        <item>curtindo a vida adoidado</item>
+        <item>o iluminado</item>
+        <item>o clube da luta</item>
+        <item>psicose</item>
+        <item>alien</item>
+        <item>toy story</item>
+        <item>matrix</item>
+        <item>titanic</item>
+        <item>o resgate do soldado ryan</item>
+        <item>quanto mais quente melhor</item>
+        <item>os suspeitos</item>
+        <item>janela indiscreta</item>
+        <item>jurassic park</item>
+        <item>o grande lebowski</item>
+        <item>a malvada</item>
+        <item>genio indomavel</item>
+        <item>butch cassidy</item>
+        <item>taxi driver</item>
+        <item>o cavaleiro das trevas</item>
+        <item>crepusculo</item>
+        <item>intriga internacional</item>
+        <item>mary poppins</item>
+        <item>touro indomavel</item>
+        <item>o rei leão</item>
+        <item>avatar</item>
+        <item>monty python e o calice sagrado</item>
+        <item>gladiador</item>
+        <item>quase famosos</item>
+        <item>todos os homens do presidente</item>
+        <item>brokeback mountain</item>
+        <item>os caca fantasma</item>
+        <item>12 homens e uma sentenca</item>
+        <item>wall e</item>
+        <item>sindicato dos ladroes</item>
+        <item>amadeus</item>
+        <item>duro de matar </item>
+        <item>inception</item>
+        <item>seven</item>
+        <item>a bela e a fera</item>
+        <item>o senhores dos aneis</item>
+        <item>quem quer ser um milionario</item>
+        <item>coracao selvagem</item>
+        <item>amnesia</item>
+        <item>rocky o lutador</item>
+        <item>up</item>
+        <item>contatos imediatos do terceiro grau</item>
+        <item>o franco atirador</item>
+        <item>doutor jivago</item>
+        <item>o labirinto do fauno</item>
+        <item>os sete samurais</item>
+        <item>o ultimo samurai</item>
+        <item>a espera de um milagre</item>
+        <item>sniper americano</item>
+    </string-array>
+    <string-array name="celebs">
+        <item>neymar</item>
+        <item>david luiz</item>
+        <item>paulo coelho</item>
+        <item>ivete sangalo</item>
+        <item>gisele bundchen</item>
+        <item>daniel alves</item>
+        <item>pele</item>
+        <item>roberto carlos</item>
+        <item>caetano veloso</item>
+        <item>luciano huck</item>
+        <item>kaka</item>
+        <item>luis felipe scolari</item>
+        <item>claudia leitte</item>
+        <item>ronaldo fenomeno</item>
+        <item>gilberto gil</item>
+        <item>felipe massa</item>
+        <item>chico buarque</item>
+        <item>romario</item>
+        <item>muricy ramalho</item>
+        <item>angelica</item>
+        <item>paula fernandes</item>
+        <item>mariana ximenes</item>
+        <item>renata fan</item>
+        <item>ana hickmann</item>
+        <item>fernanda lima</item>
+        <item>eliana</item>
+        <item>sandy</item>
+        <item>patricia poeta</item>
+        <item>thiago silva</item>
+        <item>oscar</item>
+        <item>adriana lima</item>
+        <item>sabrina sato</item>
+        <item>luan santana</item>
+        <item>mariana rios</item>
+        <item>rubens barrichello</item>
+        <item>ayrton senna</item>
+        <item>tiririca</item>
+        <item>antonio fagundes</item>
+        <item>guga</item>
+        <item>alexandre pato</item>
+        <item>fabio assuncao</item>
+        <item>oscar magrine</item>
+        <item>faustao</item>
+        <item>silvio santos</item>
+        <item>gugu</item>
+        <item>anderson silva</item>
+        <item>wanderlei silva</item>
+        <item>vitor belfort</item>
+        <item>rita cadilac</item>
+        <item>alexandre frota</item>
+        <item>danilo gentili</item>
+        <item>rafinha bastos</item>
+        <item>regina duarte</item>
+        <item>lula</item>
+        <item>dilma</item>
+        <item>xuxa</item>
+        <item>rodrigo santoro</item>
+        <item>paulo coelho</item>
+        <item>ronaldo gaucho</item>
+        <item>mauricio de souza</item>
+        <item>fernanda montenegro</item>
+        <item>alessandra ambrosio</item>
+        <item>ana maria braga</item>
+        <item>chico buarque</item>
+        <item>caetano veloso</item>
+        <item>romero britto</item>
+        <item>michel telo</item>
+        <item>alex atala</item>
+        <item>daniela mercury</item>
+        <item>bernardinho</item>
+        <item>tony ramos</item>
+        <item>emerson fittipaldi</item>
+        <item>galvao bueno</item>
+        <item>rodrigo faro</item>
+        <item>zeca pagodinho</item>
+        <item>william bonner</item>
+        <item>jo soares</item>
+        <item>susana vieira</item>
+        <item>fatima bernardes</item>
+        <item>renato aragao</item>
+        <item>luciana gimenez</item>
+        <item>marisa monte</item>
+        <item>wagner moura</item>
+        <item>miguel fallabela</item>
+        <item>preta gil</item>
+        <item>marcelo tas</item>
+        <item>reynaldo gianecchini</item>
+        <item>padre marcelo rossi</item>
+        <item>luis fernando verissimo</item>
+        <item>fiuk</item>
+        <item>deborah secco</item>
+        <item>marcos mion</item>
+        <item>drauzio varela</item>
+    </string-array>
+    <string-array name="cars">
+        <item>fusca</item>
+        <item>gol</item>
+        <item>bugatti</item>
+        <item>citroen</item>
+        <item>celta</item>
+        <item>peugeot</item>
+        <item>renault</item>
+        <item>audi</item>
+        <item>logan</item>
+        <item>cruze</item>
+        <item>corolla</item>
+        <item>punto</item>
+        <item>fiesta</item>
+        <item>mercedes</item>
+        <item>palio</item>
+        <item>porsche</item>
+        <item>siena</item>
+        <item>crossfox</item>
+        <item>volkswagen</item>
+        <item>onix</item>
+        <item>ferrari</item>
+        <item>fiat</item>
+        <item>sandero</item>
+        <item>maserati</item>
+        <item>pagani</item>
+        <item>acura</item>
+        <item>voyage</item>
+        <item>honda</item>
+        <item>infiniti</item>
+        <item>prisma</item>
+        <item>agile</item>
+        <item>mitsubishi</item>
+        <item>nissan</item>
+        <item>subaru</item>
+        <item>suzuki</item>
+        <item>toyota</item>
+        <item>yamaha</item>
+        <item>civic</item>
+        <item>lada</item>
+        <item>city</item>
+        <item>clio</item>
+        <item>golf</item>
+        <item>volvo</item>
+        <item>fusion</item>
+        <item>jetta</item>
+        <item>jaguar</item>
+        <item>lotus</item>
+        <item>sonic</item>
+        <item>doblo</item>
+        <item>spacefox</item>
+        <item>cadillac</item>
+        <item>chevrolet</item>
+        <item>chrysler</item>
+        <item>dodge</item>
+        <item>ford</item>
+        <item>jeep</item>
+        <item>polo</item>
+        <item>lincoln</item>
+    </string-array>
+    <string-array name="fruits">
+        <item>maca</item>
+        <item>damasco</item>
+        <item>abacate</item>
+        <item>banana</item>
+        <item>arando</item>
+        <item>amora</item>
+        <item>groselha</item>
+        <item>mirtilo</item>
+        <item>groselha</item>
+        <item>cereja</item>
+        <item>coco</item>
+        <item>pepino</item>
+        <item>ameixa</item>
+        <item>berinjela</item>
+        <item>figo</item>
+        <item>gojiberry</item>
+        <item>uva</item>
+        <item>uva passa</item>
+        <item>goiaba</item>
+        <item>jaca</item>
+        <item>kiwi</item>
+        <item>limão</item>
+        <item>lima</item>
+        <item>nespera</item>
+        <item>lichia</item>
+        <item>manga</item>
+        <item>melao</item>
+        <item>melancia</item>
+        <item>nectarina</item>
+        <item>azeitona</item>
+        <item>laranja</item>
+        <item>tangerina</item>
+        <item>mamao</item>
+        <item>maracuja</item>
+        <item>pessego</item>
+        <item>pimenta</item>
+        <item>pimentao</item>
+        <item>pera</item>
+        <item>caqui</item>
+        <item>physalis</item>
+        <item>abacaxi</item>
+        <item>roma</item>
+        <item>framboesa</item>
+        <item>raspberry</item>
+        <item>carambola</item>
+        <item>morango</item>
+        <item>tomate</item>
+        <item>abacaxi</item>
+    </string-array>
+    <string-array name="animals">
+        <item>jacare</item>
+        <item>anta</item>
+        <item>tamandua</item>
+        <item>antilope</item>
+        <item>macaco</item>
+        <item>tatu</item>
+        <item>burro</item>
+        <item>babuino</item>
+        <item>texugo</item>
+        <item>barracuda</item>
+        <item>morcego</item>
+        <item>urso</item>
+        <item>castor</item>
+        <item>abelha</item>
+        <item>javali</item>
+        <item>bufalo</item>
+        <item>borboleta</item>
+        <item>camelo</item>
+        <item>capivara</item>
+        <item>gato</item>
+        <item>vaca</item>
+        <item>chita</item>
+        <item>frango</item>
+        <item>chimpanze</item>
+        <item>chinchila</item>
+        <item>cobra</item>
+        <item>barata</item>
+        <item>coyote</item>
+        <item>caranguejo</item>
+        <item>crocodilo</item>
+        <item>corvo</item>
+        <item>dinossauro</item>
+        <item>cachorro</item>
+        <item>peixe</item>
+        <item>golfinho</item>
+        <item>pomba</item>
+        <item>libelula</item>
+        <item>pato</item>
+        <item>gorila</item>
+        <item>aguia</item>
+        <item>elefante</item>
+        <item>alce</item>
+        <item>falcao</item>
+        <item>passarinho</item>
+        <item>flamingo</item>
+        <item>raposa</item>
+        <item>panda</item>
+        <item>girafa</item>
+        <item>mosquito</item>
+        <item>gnu</item>
+        <item>cabra</item>
+        <item>ganso</item>
+        <item>perdiz</item>
+        <item>gaivota</item>
+        <item>hamster</item>
+        <item>garca</item>
+        <item>hipopotamo</item>
+        <item>cavalo</item>
+        <item>hiena</item>
+        <item>jaguar</item>
+        <item>canguru</item>
+        <item>koala</item>
+        <item>dragao de Komodo</item>
+        <item>cotovia</item>
+        <item>leopardo</item>
+        <item>leao</item>
+        <item>lhama</item>
+        <item>lagosta</item>
+        <item>pato selvagem</item>
+        <item>peixe boi</item>
+        <item>toupeira</item>
+        <item>macaco</item>
+        <item>alce</item>
+        <item>rato</item>
+        <item>mula</item>
+        <item>polvo</item>
+        <item>gamba</item>
+        <item>avestruz</item>
+        <item>lontra</item>
+        <item>coruja</item>
+        <item>ostra</item>
+        <item>pantera</item>
+        <item>papagaio</item>
+        <item>perdiz</item>
+        <item>pelicano</item>
+        <item>pinguim</item>
+        <item>faisao</item>
+        <item>porco</item>
+        <item>urso polar</item>
+        <item>ponei</item>
+        <item>porco espinho</item>
+        <item>codorna</item>
+        <item>coelho</item>
+        <item>guaxinim</item>
+        <item>rena</item>
+        <item>rinoceronte</item>
+        <item>salmao</item>
+        <item>sardinha</item>
+        <item>escorpiao</item>
+        <item>leao marinho</item>
+        <item>cavalo marinho</item>
+        <item>tubarao</item>
+        <item>carneiro</item>
+        <item>serpente</item>
+        <item>aranha</item>
+        <item>esquilo</item>
+        <item>cegonha</item>
+        <item>andorinha</item>
+        <item>cisne</item>
+        <item>tigre</item>
+        <item>sapo</item>
+        <item>truta</item>
+        <item>peru</item>
+        <item>tartaruga</item>
+        <item>abutre</item>
+        <item>vespa</item>
+        <item>baleia</item>
+        <item>lobo</item>
+        <item>zebra</item>
+    </string-array>
+    <string-array name="seas">
+        <item>mar de bering</item>
+        <item>golfo do alasca</item>
+        <item>golfo da califórnia</item>
+        <item>mar do japao</item>
+        <item>mar da china oriental</item>
+        <item>mar da china meridional</item>
+        <item>mar de sulu</item>
+        <item>mar de celebes</item>
+        <item>mar de mindanau</item>
+        <item>mar das filipinas</item>
+        <item>mar de flores</item>
+        <item>mar de banda</item>
+        <item>mar de arafura</item>
+        <item>mar de timor</item>
+        <item>mar de ross</item>
+        <item>mar de amundsen</item>
+        <item>mar de bellingshausen</item>
+        <item>mar da noruega</item>
+        <item>mar baltico</item>
+        <item>golfo de botnia</item>
+        <item>mar de aland</item>
+        <item>mar do arquipelago</item>
+        <item>golfo da finlandia</item>
+        <item>golfo de riga</item>
+        <item>mar do norte</item>
+        <item>mar frisio</item>
+        <item>canal da mancha</item>
+        <item>mar da irlanda</item>
+        <item>mar celta</item>
+        <item>mar cantabrico</item>
+        <item>mar da palha</item>
+        <item>mar mediterraneo</item>
+        <item>mar de alborao</item>
+        <item>mar das baleares</item>
+        <item>mar de liguria</item>
+        <item>mar tirreno</item>
+        <item>estreito da sicilia</item>
+        <item>mar adriatico</item>
+        <item>mar jonico</item>
+        <item>golfo de sidra</item>
+        <item>mar egeu</item>
+        <item>mar de marmara</item>
+        <item>mar negro</item>
+        <item>mar de azov</item>
+        <item>golfo da guine</item>
+        <item>baia de baffin</item>
+        <item>baia de hudson</item>
+        <item>baia de james</item>
+        <item>mar do labrador</item>
+        <item>golfo de sao lourenco</item>
+        <item>golfo do mexico</item>
+        <item>baia de campeche</item>
+        <item>mar do caribe</item>
+        <item>golfo da venezuela</item>
+        <item>mar dos sargacos</item>
+        <item>mar argentino</item>
+        <item>mar vermelho</item>
+        <item>golfo de aden</item>
+        <item>golfo persico</item>
+        <item>mar de aral</item>
+        <item>golfo de oma</item>
+        <item>mar arabico</item>
+        <item>baia de bengala</item>
+        <item>mar morto</item>
+        <item>mar de barents</item>
+        <item>mar de kara</item>
+        <item>mar de beaufort</item>
+        <item>golfo de amundsen</item>
+        <item>mar de chukchi</item>
+        <item>mar de laptev</item>
+    </string-array>
+    <string-array name="cities">
+        <item>sao paulo</item>
+        <item>rio de janeiro</item>
+        <item>salvador</item>
+        <item>brasilia</item>
+        <item>fortaleza</item>
+        <item>belo horizonte</item>
+        <item>manaus</item>
+        <item>curitiba</item>
+        <item>recife</item>
+        <item>porto alegre</item>
+        <item>belem</item>
+        <item>goiania</item>
+        <item>guarulhos</item>
+        <item>campinas</item>
+        <item>sao luis</item>
+        <item>sao goncalo</item>
+        <item>maceio</item>
+        <item>duque de caxias</item>
+        <item>natal</item>
+        <item>teresina</item>
+        <item>campo grande</item>
+        <item>sao bernardo do campo</item>
+        <item>nova iguacu</item>
+        <item>joao pessoa</item>
+        <item>santo andre</item>
+        <item>osasco</item>
+        <item>sao jose dos campos</item>
+        <item>ribeirao preto</item>
+        <item>uberlandia</item>
+        <item>contagem</item>
+        <item>sorocaba</item>
+        <item>aracaju</item>
+        <item>feira de santana</item>
+        <item>cuiaba</item>
+        <item>joinville</item>
+        <item>juiz de fora</item>
+        <item>londrina</item>
+        <item>niteroi</item>
+        <item>porto velho</item>
+        <item>belford roxo</item>
+        <item>campos dos goytacazes</item>
+        <item>caxias do sul</item>
+        <item>vila velha</item>
+        <item>florianopolis</item>
+        <item>maua</item>
+        <item>macapa</item>
+        <item>sao jose do rio preto</item>
+        <item>santos</item>
+        <item>mogi das cruzes</item>
+        <item>diadema</item>
+        <item>betim</item>
+        <item>campina grande</item>
+        <item>jundiai</item>
+        <item>olinda</item>
+        <item>carapicuiba</item>
+        <item>montes claros</item>
+        <item>maringa</item>
+        <item>piracicaba</item>
+        <item>bauru</item>
+        <item>anapolis</item>
+        <item>rio branco</item>
+        <item>sao vicente</item>
+        <item>vitoria</item>
+        <item>itaquaquecetuba</item>
+        <item>pelotas</item>
+        <item>canoas</item>
+        <item>caruaru</item>
+        <item>vitoria da conquista</item>
+        <item>franca</item>
+        <item>ponta grossa</item>
+        <item>blumenau</item>
+        <item>petrolina</item>
+        <item>paulista</item>
+        <item>ribeirao das neves</item>
+        <item>uberaba</item>
+        <item>boa vista</item>
+        <item>guaruja</item>
+        <item>cascavel</item>
+        <item>taubate</item>
+        <item>limeira</item>
+        <item>praia grande</item>
+        <item>sao jose dos pinhais</item>
+        <item>mossoro</item>
+        <item>suzano</item>
+        <item>camacari</item>
+        <item>governador valadares</item>
+        <item>santa maria</item>
+        <item>gravatai</item>
+        <item>taboao da serra</item>
+        <item>foz do iguacu</item>
+        <item>varzea grande</item>
+        <item>volta redonda</item>
+        <item>juazeiro do norte</item>
+        <item>sumare</item>
+        <item>palmas</item>
+        <item>barueri</item>
+        <item>embu</item>
+        <item>ipatinga</item>
+        <item>imperatriz</item>
+        <item>novo hamburgo</item>
+        <item>sao carlos</item>
+        <item>marilia</item>
+        <item>arapiraca</item>
+        <item>sete lagoas</item>
+        <item>colombo</item>
+        <item>divinopolis</item>
+        <item>sao leopoldo</item>
+        <item>itaborai</item>
+        <item>sao jose</item>
+        <item>americana</item>
+        <item>macae</item>
+        <item>jacarei</item>
+        <item>indaiatuba</item>
+        <item>araraquara</item>
+        <item>cotia</item>
+        <item>presidente prudente</item>
+        <item>itabuna</item>
+        <item>pindamonhangaba</item>
+    </string-array>
+    <string-array name="countries">
+        <item>afeganistao</item>
+        <item>africa do sul</item>
+        <item>albania</item>
+        <item>alemanha</item>
+        <item>angola</item>
+        <item>arabia saudita</item>
+        <item>argelia</item>
+        <item>argentina</item>
+        <item>armenia</item>
+        <item>aruba</item>
+        <item>australia</item>
+        <item>austria</item>
+        <item>azerbaijao</item>
+        <item>bahamas</item>
+        <item>bangladeche</item>
+        <item>barbados</item>
+        <item>barem</item>
+        <item>belgica</item>
+        <item>belize</item>
+        <item>bermudas</item>
+        <item>bielorrussia</item>
+        <item>birmania</item>
+        <item>bolivia</item>
+        <item>bosnia e herzegovina</item>
+        <item>brasil</item>
+        <item>bulgaria</item>
+        <item>butao</item>
+        <item>cabo verde</item>
+        <item>camaroes</item>
+        <item>camboja</item>
+        <item>canada</item>
+        <item>catar</item>
+        <item>cazaquistao</item>
+        <item>chile</item>
+        <item>china</item>
+        <item>chipre</item>
+        <item>colombia</item>
+        <item>camoroes</item>
+        <item>congo</item>
+        <item>coreia do norte</item>
+        <item>coreia do sul</item>
+        <item>costa do marfim</item>
+        <item>costa rica</item>
+        <item>croacia</item>
+        <item>cuba</item>
+        <item>dinamarca</item>
+        <item>egito</item>
+        <item>emirados arabes unidos</item>
+        <item>equador</item>
+        <item>eslovaquia</item>
+        <item>eslovenia</item>
+        <item>espanha</item>
+        <item>estados unidos</item>
+        <item>estonia</item>
+        <item>etiopia</item>
+        <item>fiji</item>
+        <item>filipinas</item>
+        <item>finlandia</item>
+        <item>franca</item>
+        <item>gabao</item>
+        <item>gambia</item>
+        <item>gana</item>
+        <item>georgia</item>
+        <item>granada</item>
+        <item>grecia</item>
+        <item>groelandia</item>
+        <item>guatemala</item>
+        <item>guiana</item>
+        <item>guine</item>
+        <item>guine equatorial</item>
+        <item>guine bissau</item>
+        <item>haiti</item>
+        <item>honduras</item>
+        <item>hong kong</item>
+        <item>hungria</item>
+        <item>iemen</item>
+        <item>ilha bouvet</item>
+        <item>ilha do natal</item>
+        <item>ilha norfolk</item>
+        <item>ilhas caimao</item>
+        <item>ilhas salomao</item>
+        <item>ilhas turcas e caicos</item>
+        <item>ilhas virgens americanas</item>
+        <item>ilhas virgens britanicas</item>
+        <item>india</item>
+        <item>indonesia</item>
+        <item>ira</item>
+        <item>iraque</item>
+        <item>irlanda</item>
+        <item>islandia</item>
+        <item>israel</item>
+        <item>italia</item>
+        <item>jamaica</item>
+        <item>japao</item>
+        <item>jordania</item>
+        <item>kuwait</item>
+        <item>laos</item>
+        <item>letonia</item>
+        <item>libano</item>
+        <item>liberia</item>
+        <item>libia</item>
+        <item>lituania</item>
+        <item>luxemburgo</item>
+        <item>macau</item>
+        <item>macedonia</item>
+        <item>madagascar</item>
+        <item>malasia</item>
+        <item>maldivas</item>
+        <item>mali</item>
+        <item>malta</item>
+        <item>marrocos</item>
+        <item>mexico</item>
+        <item>mocambique</item>
+        <item>monaco</item>
+        <item>mongolia</item>
+        <item>montenegro</item>
+        <item>namibia</item>
+        <item>nepal</item>
+        <item>nicaragua</item>
+        <item>nigeria</item>
+        <item>noruega</item>
+        <item>nova zelandia</item>
+        <item>paises baixos</item>
+        <item>palau</item>
+        <item>panama</item>
+        <item>papua nova guine</item>
+        <item>paquistao</item>
+        <item>paraguai</item>
+        <item>peru</item>
+        <item>polinesia francesa</item>
+        <item>polonia</item>
+        <item>porto rico</item>
+        <item>portugal</item>
+        <item>quenia</item>
+        <item>quirguizistao</item>
+        <item>reino unido</item>
+        <item>republica checa</item>
+        <item>republica dominicana</item>
+        <item>romenia</item>
+        <item>russia</item>
+        <item>samoa</item>
+        <item>samoa americana</item>
+        <item>santa helena</item>
+        <item>santa lucia</item>
+        <item>sao cristovao e neves</item>
+        <item>sao marinho</item>
+        <item>sara ocidental</item>
+        <item>senegal</item>
+        <item>serra leoa</item>
+        <item>servia</item>
+        <item>singapura</item>
+        <item>siria</item>
+        <item>somalia</item>
+        <item>sri lanca</item>
+        <item>sudao</item>
+        <item>suecia</item>
+        <item>suica</item>
+        <item>suriname</item>
+        <item>tailandia</item>
+        <item>taiwan</item>
+        <item>tajiquistao</item>
+        <item>tanzania</item>
+        <item>timor leste</item>
+        <item>togo</item>
+        <item>tokelau</item>
+        <item>tonga</item>
+        <item>trindade e tobago</item>
+        <item>tunisia</item>
+        <item>turquemenistao</item>
+        <item>turquia</item>
+        <item>ucrania</item>
+        <item>uganda</item>
+        <item>uniao europeia</item>
+        <item>uruguai</item>
+        <item>usbequistao</item>
+        <item>vaticano</item>
+        <item>venezuela</item>
+        <item>vietna</item>
+        <item>zambia</item>
+        <item>zimbabue</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3" >
+
+    <Button
+        android:id="@+id/b_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#fd6363"
+        android:text="@string/start"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/b_space"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#7288BE"
+        android:text="_"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/b_delete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#fd6363"
+        android:text="@string/delete"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+</LinearLayout>

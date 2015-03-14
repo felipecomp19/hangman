@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_download"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/classic_keyboard"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <CheckBox
+                android:id="@+id/cb_easy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/easy"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+            
+            <CheckBox
+                android:id="@+id/cb_letters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/hide_letter"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_separator"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:background="#333333"
+                android:text="" />
+
+             <TextView
+                 android:id="@+id/tv_games_won"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20dp"
+                 android:gravity="center"
+                 android:text="@string/games_won"
+                 android:textColor="#333333"
+                 android:textSize="24dp" />
+
+             <TextView
+                android:id="@+id/tv_games_lost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/games_lost"
+                android:textColor="#333333"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/b_clear"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="#4C64A2"
+                android:text="@string/clear_data"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/b_download"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#4C64A2"
+        android:text="@string/more_games"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+</RelativeLayout>
